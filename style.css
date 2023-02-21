@@ -62,3 +62,34 @@ body {
         font-size: 20pt;
     }
 
+
+    
+
+
+
+    .main {
+        margin: 20px;
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    .cards .card {
+        margin-right: 20px;
+        cursor: pointer;
+    }
+
+
+    .cards .card img {
+        width: 350px;
+
+    }
