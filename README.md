@@ -52,5 +52,17 @@ pour ma classe .slogan j'ai utilisé l'attribut
 
 J'ai utilisé les memes éléments pour ma classe .slogan_2
 
+&ensp;
+
+pour tous les éléments, soit * j'ai utilisé 
+- margin: 0; pour retirer toutes les marges exterieur
+- padding: 0; pour retirer toutes les marges intérieur
+- text-decoration: none; pour retirer tous les soulignages etc par defaut
+- list-style: none; pour retirer les puces des listes
+
+&ensp;
+
+pour ma classe .navbar que j'ai attribué à toute ma balise nav, j'ai utilisé : 
+- 
 
 
