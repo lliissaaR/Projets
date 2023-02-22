@@ -25,6 +25,10 @@ body {
 
     }
 
+    .logo {
+        padding-right: 30px;
+
+    }
 
 
     * { 
@@ -80,16 +84,20 @@ body {
     .cards {
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
     }
 
 
     .cards .card {
         margin-right: 20px;
         cursor: pointer;
+        margin-top: 50px;
+        
     }
 
 
     .cards .card img {
-        width: 350px;
+        width: 350px   ;
+        height: 400px;
 
     }
