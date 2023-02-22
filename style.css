@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(229, 227, 220) ;
+    background-color: #E5E3DC ;
 }
 
 
@@ -105,6 +105,111 @@ body {
 
 
     .cards .card .card-header {
-        display: flex;
+        display: flex; 
         justify-content: space-between;
+    }
+
+
+
+    .form-container {
+        display: flex;
+        justify-content: center;
+        
+        
+        
+
+    
+    }
+
+    .h2 {
+     font-family: Amatic SC, cursive;
+     font-size: 35pt;
+     padding-bottom: 20px;
+
+    }
+
+    .corps_formulaire {
+
+        font-family: Amatic SC, cursive;
+        font-size: 20pt;
+        padding-top: 20pt;
+        
+    }
+
+
+    .gauche {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .droite {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .form {
+        background-color: #D6D4C9;
+        padding: 50px;
+        border-radius: 20px;
+    }
+
+
+    form .séparation {
+        width: 100%;
+        height: 1px;
+        background-color: black;
+    }
+
+    form .corps_formulaire {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .boite {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    form .corps_formulaire .gauche .boite input {
+        margin-top: 5px;
+        padding: 10px 5px 10px 20px;
+        border: 1px solid #D6D4C9;
+        outline-color: black;
+        
+        
+    }
+
+    form .corps_formulaire .droite {
+        margin-left: 50px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    form .corps_formulaire .droite .boite {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+
+
+    }
+    
+
+    form .corps_formulaire .droite .boite textarea {
+        margin-top: 5px;
+        padding: 155px 200px;
+        border:1px solid #D6D4C9;
+        outline-color: black;
+
+    }    
+
+    input:focus {
+        outline: none;
+    }
+
+    textarea:focus {
+        outline: none;
     }
