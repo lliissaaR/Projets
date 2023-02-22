@@ -101,3 +101,9 @@ body {
         height: 400px;
 
     }
+
+
+    .cards .card .card-header {
+        display: flex;
+        justify-content: space-between;
+    }
